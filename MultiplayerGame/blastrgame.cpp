@@ -138,19 +138,19 @@ void BlastrClient::drawbullets(){
 
 void BlastrClient::map0(){}
 
-void userKilled(QString killedby){}
-void userRespawn(){}
-void addPlayer(QColor colour, QString Name){}
-void removePlayer(QString name){}
+void BlastrClient::userKilled(QString killedby){}
+void BlastrClient::userRespawn(){}
+void BlastrClient::addPlayer(QColor colour, QString Name){}
+void BlastrClient::removePlayer(QString name){}
 
-void updatePlayerPos(QString name, int x, int y){}
-void updatePlayerHealth(QString name, int health){}
-void UpdatePlayerKills(QString name, int kills){}
+void BlastrClient::updatePlayerPos(QString name, int x, int y){}
+void BlastrClient::updatePlayerHealth(QString name, int health){}
+void BlastrClient::UpdatePlayerKills(QString name, int kills){}
 
 //Bullet data management
-void updateBulletPos(QString name, int bulletNo, int x, int y){}
-void addBullet(QString name, int bulletno, int x, int y){}
-void removeBullet(QString name, int bulletno){}
+void BlastrClient::updateBulletPos(QString name, int bulletNo, int x, int y){}
+void BlastrClient::addBullet(QString name, int bulletno, int x, int y){}
+void BlastrClient::removeBullet(QString name, int bulletno){}
 
 
 
